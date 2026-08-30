@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
