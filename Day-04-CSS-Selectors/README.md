@@ -16,8 +16,3 @@ A class selector is used to style one or more HTML elements.
 .className {
     property: value;
 }
-### 2. CSS Class ID Selectors
-### Syntax
-#className {
-    property: value;
-}
