@@ -1,0 +1,63 @@
+/* =========================
+   CLASS SELECTORS
+   ========================= */
+
+.heading {
+    color: blue;
+    text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.important {
+    color: red;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: black;
+}
+
+.link {
+    font-weight: bold;
+}
+
+
+/* =========================
+   ID SELECTORS
+   ========================= */
+
+#header {
+    color: green;
+    text-align: center;
+    font-size: 32px;
+}
+
+#description {
+    font-size: 18px;
+}
+
+#main-box {
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+}
