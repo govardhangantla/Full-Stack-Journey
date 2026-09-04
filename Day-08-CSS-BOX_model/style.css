@@ -1,0 +1,108 @@
+/* =========================
+   BASIC CSS BOX MODEL
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/* Content + Padding + Border + Margin */
+
+.basic-box {
+    width: 300px;
+
+    /* Content */
+    height: 150px;
+
+    /* Padding - space inside the box */
+    padding: 20px;
+
+    /* Border - boundary of the box */
+    border: 5px solid black;
+
+    /* Margin - space outside the box */
+    margin: 20px;
+
+    background-color: lightblue;
+}
+
+
+/* =========================
+   ADVANCED CSS BOX MODEL
+   ========================= */
+
+/* border-box includes padding and border
+   inside the declared width and height */
+
+.advanced-box {
+    box-sizing: border-box;
+
+    width: 300px;
+    height: 180px;
+
+    padding: 20px;
+
+    border: 5px solid blue;
+
+    margin: 20px;
+
+    background-color: lightgreen;
+}
+
+
+/* Another margin example */
+
+.second-box {
+    box-sizing: border-box;
+
+    width: 300px;
+
+    padding: 20px;
+
+    border: 5px solid red;
+
+    margin: 30px 20px;
+
+    background-color: lightyellow;
+}
+
+
+/* =========================
+   BOX-SIZING RESET
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   TABLE BORDER SPACING
+   ========================= */
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 15px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
