@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* 1. BLOCK */
+
+.block-box {
+    display: block;
+
+    width: 300px;
+    padding: 20px;
+    margin: 10px 0;
+
+    background-color: lightblue;
+}
+
+
+/* 2. INLINE */
+
+.inline-box {
+    display: inline;
+
+    background-color: lightgreen;
+
+    padding: 10px;
+}
+
+
+/* 3. INLINE-BLOCK */
+
+.inline-block-box {
+    display: inline-block;
+
+    width: 120px;
+    height: 70px;
+
+    margin: 10px;
+    padding: 10px;
+
+    background-color: lightcoral;
+
+    text-align: center;
+}
+
+
+/* 4. FLEX */
+
+.flex-container {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: lightgray;
+}
+
+.flex-container div {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+
+/* 5. GRID */
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10px;
+
+    padding: 20px;
+
+    background-color: lightgray;
+}
+
+.grid-container div {
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: lightyellow;
+}
