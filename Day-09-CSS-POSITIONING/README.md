@@ -16,17 +16,3 @@ This project covers important CSS concepts used to control the layout, position,
 
 ---
 
-# 1. CSS Positioning
-
-The CSS `position` property controls how an element is positioned on a webpage.
-
-## Types of Positioning
-
-### Static
-
-`position: static` is the default position of an element.
-
-```css
-.box {
-    position: static;
-}
