@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Grid System</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- 1. CONTAINER -->
+    <!-- ================================= -->
+
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-4">
+            Bootstrap Grid System
+        </h1>
+
+
+        <!-- ================================= -->
+        <!-- 2. BASIC GRID - col -->
+        <!-- ================================= -->
+
+        <h2>Basic Grid</h2>
+
+        <div class="row g-3">
+
+            <div class="col">
+                <div class="border p-3">
+                    Column 1
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="border p-3">
+                    Column 2
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="border p-3">
+                    Column 3
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 3. col-6 -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">6 + 6 Columns</h2>
+
+        <div class="row g-3">
+
+            <div class="col-6">
+                <div class="border p-3">
+                    Left - 6 Columns
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="border p-3">
+                    Right - 6 Columns
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 4. col-4 -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">4 + 4 + 4 Columns</h2>
+
+        <div class="row g-3">
+
+            <div class="col-4">
+                <div class="border p-3">
+                    Column 1
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="border p-3">
+                    Column 2
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="border p-3">
+                    Column 3
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 5. col-3 -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">3 + 3 + 3 + 3 Columns</h2>
+
+        <div class="row g-3">
+
+            <div class="col-3">
+                <div class="border p-3">
+                    Box 1
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="border p-3">
+                    Box 2
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="border p-3">
+                    Box 3
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="border p-3">
+                    Box 4
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 6. DIFFERENT COLUMN SIZES -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">3 + 9 Layout</h2>
+
+        <div class="row g-3">
+
+            <div class="col-3">
+                <div class="border p-3">
+                    Sidebar
+                </div>
+            </div>
+
+            <div class="col-9">
+                <div class="border p-3">
+                    Main Content
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 7. CONTAINER FLUID -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">Container Fluid</h2>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="border p-4">
+            This section uses container-fluid
+        </div>
+
+    </div>
+
+
+    <!-- Back to normal container -->
+
+    <div class="container">
+
+
+        <!-- ================================= -->
+        <!-- 8. RESPONSIVE GRID -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">Responsive Grid</h2>
+
+        <div class="row g-3">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="border p-4">
+                    Responsive Box 1
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="border p-4">
+                    Responsive Box 2
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="border p-4">
+                    Responsive Box 3
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="border p-4">
+                    Responsive Box 4
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 9. GUTTERS -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">Gutters</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="border p-4">
+                    Gutter Box 1
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="border p-4">
+                    Gutter Box 2
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="border p-4">
+                    Gutter Box 3
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 10. HORIZONTAL GUTTER -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">Horizontal Gutter</h2>
+
+        <div class="row gx-5">
+
+            <div class="col-6">
+                <div class="border p-3">
+                    Box 1
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="border p-3">
+                    Box 2
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 11. VERTICAL GUTTER -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">Vertical Gutter</h2>
+
+        <div class="row gy-4">
+
+            <div class="col-6">
+                <div class="border p-3">
+                    Box 1
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="border p-3">
+                    Box 2
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 12. NESTED GRID -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">Nested Grid</h2>
+
+        <div class="row g-3">
+
+            <!-- Parent Column -->
+            <div class="col-md-6">
+
+                <div class="border p-3">
+
+                    <h3>Parent Column</h3>
+
+                    <!-- New Row inside Column -->
+                    <div class="row g-2">
+
+                        <div class="col-6">
+
+                            <div class="border p-3">
+                                Inner Box 1
+                            </div>
+
+                        </div>
+
+                        <div class="col-6">
+
+                            <div class="border p-3">
+                                Inner Box 2
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Another Parent Column -->
+            <div class="col-md-6">
+
+                <div class="border p-3">
+
+                    <h3>Right Column</h3>
+
+                    <p>
+                        This is another column.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================= -->
+        <!-- 13. COMPLETE USAGE EXAMPLE -->
+        <!-- ================================= -->
+
+        <h2 class="mt-5">My Projects</h2>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="border p-4">
+
+                    <h3>Project 1</h3>
+
+                    <p>
+                        My first project.
+                    </p>
+
+                    <button class="btn btn-primary">
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="border p-4">
+
+                    <h3>Project 2</h3>
+
+                    <p>
+                        My second project.
+                    </p>
+
+                    <button class="btn btn-success">
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="border p-4">
+
+                    <h3>Project 3</h3>
+
+                    <p>
+                        My third project.
+                    </p>
+
+                    <button class="btn btn-danger">
+                        View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
