@@ -1,134 +1,222 @@
-My_FSD_journey
-🚀 Full Stack Development Journey
-Welcome to my Full Stack Development (FSD) repository.
+# 🚀 Full Stack Web Development Journey
 
-This repository documents my complete journey from learning the fundamentals of web development to building full-stack applications. Every topic is practiced through code, mini projects, and notes.
+Welcome to my **Full Stack Web Development Journey**!  
 
-🎯 Goal
-Master Frontend Development
-Master Backend Development
-Build Production-Level Full Stack Applications
-Learn Best Practices and Clean Code
-Create a Strong Portfolio
-Prepare for Software Engineering Placements
-📚 Learning Roadmap
-🌐 Frontend
+This repository contains my learning progress, practice programs, exercises, and projects as I learn web development from the fundamentals to modern full-stack development.
+
+---
+
+## 📚 Course Roadmap
+
+### 1. 🌐 HTML
+
+
+- HTML Basics
+- Elements & Attributes
+- Headings & Paragraphs
+- Links & Images
+- Lists
+- Tables
+- Forms
+- Semantic HTML
+- HTML Practice
+
+---
+
+### 2. 🎨 CSS
+
+
+- CSS Basics
+- Selectors
+- Colors & Backgrounds
+- Fonts
+- Text Styling
+- Box Model
+- Borders
+- Margins & Padding
+- Positioning
+- Pseudo Classes
+- CSS Variables
+- Responsive Design
+- CSS Practice
+
+---
+
+### 3. 🧩 Bootstrap
+
+
+- Bootstrap Basics
+- Containers
+- Grid System
+- Typography
+- Buttons
+- Cards
+- Forms
+- Navbar
+- Responsive Components
+
+---
+
+### 4. 📦 Flexbox
+
+
+- Flex Container
+- Flex Direction
+- Justify Content
+- Align Items
+- Flex Wrap
+- Gap
+- Building Responsive Layouts
+
+---
+
+### 5. ⚡ JavaScript ES6
+
+
+- JavaScript Basics
+- Variables
+- Data Types
+- Operators
+- Functions
+- Arrays
+- Objects
+- Loops
+- Arrow Functions
+- Template Literals
+- Destructuring
+- Spread & Rest Operators
+- ES6 Features
+
+---
+
+### 6. 🌳 DOM
+
+
+- DOM Basics
+- Selecting Elements
+- Changing HTML
+- Changing CSS
+- Events
+- Event Listeners
+- Forms
+- Dynamic Web Pages
+
+---
+
+### 7. 💻 jQuery
+
+
+- jQuery Basics
+- Selectors
+- Events
+- DOM Manipulation
+- Effects
+- Animations
+- AJAX Basics
+
+---
+
+### 8. 🍃 MongoDB
+
+
+- MongoDB Basics
+- Databases
+- Collections
+- Documents
+- CRUD Operations
+- Queries
+- MongoDB with Node.js
+
+---
+
+### 9. 🟢 Node.js
+
+
+- Node.js Introduction
+- Modules
+- NPM
+- File System
+- HTTP Server
+- Packages
+- Backend Basics
+
+---
+
+### 10. 🚂 Express.js
+
+
+- Express Introduction
+- Server Creation
+- Routing
+- Middleware
+- Request & Response
+- Backend Development
+
+---
+
+### 11. 🔌 API
+
+
+- API Fundamentals
+- HTTP Methods
+- GET
+- POST
+- PUT
+- DELETE
+- JSON
+- API Requests & Responses
+
+---
+
+### 12. 🛠️ RESTful API
+
+
+- REST Architecture
+- RESTful Routes
+- CRUD APIs
+- Express REST APIs
+- MongoDB Integration
+- API Testing
+- Backend Project Structure
+
+---
+
+### 13. ⚛️ React JS
+
+**Coming Next 🚀**
+
+Topics I will learn:
+
+- React Fundamentals
+- Components
+- JSX
+- Props
+- State
+- Events
+- Hooks
+- useState
+- useEffect
+- Forms
+- Conditional Rendering
+- Lists
+- React Router
+- API Integration
+- Building React Projects
+
+---
+
+## 🛠️ Technologies I'm Learning
+
+```text
 HTML
 CSS
-JavaScript
-TypeScript
-React
-Next.js
-Tailwind CSS
 Bootstrap
-Responsive Web Design
-UI Components
-API Integration
-⚙️ Backend
+Flexbox
+JavaScript ES6
+DOM
+jQuery
+MongoDB
 Node.js
 Express.js
 REST APIs
-Authentication
-Authorization
-JWT
-File Uploads
-Error Handling
-Middleware
-🗄️ Database
-MongoDB
-PostgreSQL
-SQL Basics
-Prisma ORM
-Mongoose
-☁️ Deployment
-Git
-GitHub
-Netlify
-Vercel
-Render
-Docker (Basics)
-🛠️ Tools
-VS Code
-Postman
-GitHub Desktop
-npm
-Chrome DevTools
-📂 Repository Structure
-FSD
-│
-├── Frontend
-│   ├── HTML-Revision
-│   ├── CSS
-│   ├── JavaScript
-│   ├── TypeScript
-│   ├── React
-│   ├── NextJS
-│   ├── TailwindCSS
-│   └── Projects
-│
-├── Backend
-│   ├── NodeJS
-│   ├── ExpressJS
-│   ├── REST-API
-│   ├── Authentication
-│   └── Projects
-│
-├── Database
-│   ├── MongoDB
-│   ├── PostgreSQL
-│   └── SQL
-│
-├── FullStackProjects
-│
-└── README.md
-📖 Repository Rules
-Learn one topic at a time.
-Write every example by hand.
-Practice before moving to the next topic.
-Build mini projects after each major section.
-Commit code regularly.
-Keep folder names meaningful.
-Write clean, readable code.
-📅 Current Progress
-Module	Status
-HTML	🟡 In Progress
-CSS	⏳ Planned
-JavaScript	⏳ Planned
-React	⏳ Planned
-Backend	⏳ Planned
-Database	⏳ Planned
-Deployment	⏳ Planned
-📈 Learning Strategy
-Learn the concept
-Build examples
-Practice independently
-Create mini projects
-Revise
-Build real-world projects
-💻 Projects (Coming Soon)
-Portfolio Website
-Landing Page
-Calculator
-Weather App
-Todo App
-Blog Website
-Authentication System
-E-Commerce Website
-Chat Application
-Full Stack Dashboard
-📌 Notes
-This repository is continuously updated as I progress through my Full Stack Development journey.
-
-Every folder contains:
-
-Source Code
-Practice Examples
-Mini Projects
-Notes (where applicable)
-My FSD Journey
-Welcome to my Full Stack Development learning journey repository!
-
-
-# 6. Push local code to GitHub
-git push -u origin main
-## ⭐ If you find this repository useful, consider giving it a star!
+React.js
