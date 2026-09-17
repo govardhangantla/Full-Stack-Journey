@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flexbox Practice</title>
+
+    <style>
+        /* =========================
+           BASIC STYLING
+        ========================= */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        section {
+            margin: 30px auto;
+            max-width: 1100px;
+            padding: 20px;
+        }
+
+
+        /* =========================
+           1. BASIC FLEXBOX
+        ========================= */
+
+        .basic-container {
+            display: flex;
+
+            border: 3px solid black;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        .basic-item {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+
+        /* =========================
+           2. FLEX DIRECTION
+        ========================= */
+
+        .direction-container {
+            display: flex;
+
+            flex-direction: row;
+
+            gap: 10px;
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        .direction-item {
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+
+        /* =========================
+           3. JUSTIFY CONTENT
+        ========================= */
+
+        .justify-container {
+            display: flex;
+
+            justify-content: space-between;
+
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        .justify-item {
+            background-color: orange;
+            padding: 20px;
+        }
+
+
+        /* =========================
+           4. ALIGN ITEMS
+        ========================= */
+
+        .align-container {
+            display: flex;
+
+            align-items: center;
+
+            height: 200px;
+
+            border: 3px solid black;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .align-item {
+            background-color: pink;
+            padding: 20px;
+        }
+
+
+        /* =========================
+           5. FLEX WRAP
+        ========================= */
+
+        .wrap-container {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 15px;
+
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        .wrap-item {
+            background-color: violet;
+            padding: 30px;
+            width: 200px;
+            text-align: center;
+        }
+
+
+        /* =========================
+           6. FLEX: 1
+        ========================= */
+
+        .flex-container {
+            display: flex;
+
+            gap: 10px;
+
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        .flex-item {
+            flex: 1;
+
+            background-color: lightcoral;
+            padding: 30px;
+            text-align: center;
+        }
+
+
+        /* =========================
+           7. NAVBAR
+        ========================= */
+
+        .navbar {
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+
+            background-color: #222;
+            padding: 15px 30px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: yellow;
+        }
+
+
+        /* =========================
+           8. CARD LAYOUT
+        ========================= */
+
+        .cards {
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 20px;
+
+            justify-content: center;
+        }
+
+        .card {
+            flex: 1 1 250px;
+
+            background-color: white;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+            text-align: center;
+        }
+
+        .card button {
+            padding: 10px 20px;
+
+            border: none;
+
+            background-color: #222;
+
+            color: white;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #444;
+        }
+
+
+        /* =========================
+           9. RESPONSIVE NAVBAR
+        ========================= */
+
+        @media (max-width: 700px) {
+
+            .navbar {
+                flex-direction: column;
+
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-direction: column;
+
+                text-align: center;
+
+                gap: 10px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Govardhan
+        </div>
+
+        <div class="nav-links">
+
+            <a href="#">Home</a>
+
+            <a href="#">About</a>
+
+            <a href="#">Skills</a>
+
+            <a href="#">Projects</a>
+
+            <a href="#">Contact</a>
+
+        </div>
+
+    </nav>
+
+
+    <h1>Flexbox Practice</h1>
+
+
+    <!-- =========================
+         1. BASIC FLEXBOX
+    ========================= -->
+
+    <section>
+
+        <h2>1. Basic Flexbox</h2>
+
+        <div class="basic-container">
+
+            <div class="basic-item">Item 1</div>
+
+            <div class="basic-item">Item 2</div>
+
+            <div class="basic-item">Item 3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         2. FLEX DIRECTION
+    ========================= -->
+
+    <section>
+
+        <h2>2. Flex Direction</h2>
+
+        <div class="direction-container">
+
+            <div class="direction-item">1</div>
+
+            <div class="direction-item">2</div>
+
+            <div class="direction-item">3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         3. JUSTIFY CONTENT
+    ========================= -->
+
+    <section>
+
+        <h2>3. Justify Content</h2>
+
+        <div class="justify-container">
+
+            <div class="justify-item">Left</div>
+
+            <div class="justify-item">Center</div>
+
+            <div class="justify-item">Right</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         4. ALIGN ITEMS
+    ========================= -->
+
+    <section>
+
+        <h2>4. Align Items</h2>
+
+        <div class="align-container">
+
+            <div class="align-item">Item 1</div>
+
+            <div class="align-item">Item 2</div>
+
+            <div class="align-item">Item 3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         5. FLEX WRAP
+    ========================= -->
+
+    <section>
+
+        <h2>5. Flex Wrap</h2>
+
+        <div class="wrap-container">
+
+            <div class="wrap-item">Box 1</div>
+
+            <div class="wrap-item">Box 2</div>
+
+            <div class="wrap-item">Box 3</div>
+
+            <div class="wrap-item">Box 4</div>
+
+            <div class="wrap-item">Box 5</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         6. FLEX: 1
+    ========================= -->
+
+    <section>
+
+        <h2>6. Flex: 1</h2>
+
+        <div class="flex-container">
+
+            <div class="flex-item">
+                Box 1
+            </div>
+
+            <div class="flex-item">
+                Box 2
+            </div>
+
+            <div class="flex-item">
+                Box 3
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         7. CARD LAYOUT
+    ========================= -->
+
+    <section>
+
+        <h2>7. Real-World Example - Cards</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>HTML</h3>
+
+                <p>
+                    Structure of a webpage.
+                </p>
+
+                <button>
+                    Learn
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>CSS</h3>
+
+                <p>
+                    Styling and layout of webpages.
+                </p>
+
+                <button>
+                    Learn
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Adds functionality to webpages.
+                </p>
+
+                <button>
+                    Learn
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+</html>
